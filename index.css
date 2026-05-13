@@ -53,3 +53,8 @@
     column-gap:20px;
     row-gap:30px;
 }
+
+.filter-btn{
+    margin:10px;
+    cursor:pointer;
+}
