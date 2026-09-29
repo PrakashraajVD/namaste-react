@@ -24,7 +24,7 @@
 .res-card {
   padding: 5px;
   width: 200px;
-  height: 400px;
+  height: 425px;
   border: 1px solid transparent;
   background-color: #f0f0f0;
   margin: 15px;
@@ -83,7 +83,7 @@
 .shimmer-card {
   padding: 5px;
   width: 200px;
-  height: 400px;
+  height: 425px;
   background-color: #f0f0f0;
   margin: 15px;
 }
