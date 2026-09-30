@@ -1,0 +1,16 @@
+{
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": true,
+    "prettier.semi": true,
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

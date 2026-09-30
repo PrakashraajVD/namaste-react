@@ -62,3 +62,7 @@ import {Component} from "path";
 
 - UseState() - Superpowerful state variables
 - UseEffect()
+
+# Types of Routing in web apps
+- Client side Routing
+- Server side Routing
