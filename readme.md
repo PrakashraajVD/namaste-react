@@ -1,11 +1,12 @@
 # Parcel
+
 - Dev Build
 - Local Server
 - HMR (Hot Module Replacement)
 - File Watching Algorithm - written in C++
 - Caching - Faster Builds
 - Image Optimization
-- Minification 
+- Minification
 - Bundling
 - Compress
 - Consistent Hashing
@@ -15,30 +16,30 @@
 - Error Handling
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
- 
- # Namaste Food
 
- - Header
-    - Logo 
-    - Nav Items
+# Namaste Food
+
+- Header
+  - Logo
+  - Nav Items
 - Body
-    - Search
-    - Restaurant Container
-        - Restaurant card
-            - Img
-            - Name
-            - Rating
-            - Cuisine
-            - Delivery Time
+  - Search
+  - Restaurant Container
+    - Restaurant card
+      - Img
+      - Name
+      - Rating
+      - Cuisine
+      - Delivery Time
 - Footer
-    - Copyright
-    - Lins 
-    - Address
-    - Contact
+  - Copyright
+  - Lins
+  - Address
+  - Contact
 
 ---
-`not using keys (not acceptable) <<<<<< index as key <<<<<<< unique id (best practice)`
----
+
+## `not using keys (not acceptable) <<<<<< index as key <<<<<<< unique id (best practice)`
 
 # Two Types of Export / Import
 
@@ -46,17 +47,17 @@
 
 ```javascript
 export default Component;
-import Component from "path";
+import Component from 'path';
 ```
 
 - ## Named Export / Import
 
 ```javascript
 export const Component;
-import {Component} from "path";
+import { Component } from 'path';
 ```
 
-# React Hooks 
+# React Hooks
 
 ## Normal JS Utility Functions
 
@@ -64,5 +65,35 @@ import {Component} from "path";
 - UseEffect()
 
 # Types of Routing in web apps
+
 - Client side Routing
 - Server side Routing
+
+# Lifecycle of a class based components
+
+- Parent Constructor
+- Parent render
+- FirstChild constructor
+- FirstChild render
+- SecondChild constructor
+- SecondChild render
+- First Child ComponentDidMount
+- Second Child ComponentDidMount
+- Parent ComponentDidMount
+
+# Life cycle of About Component
+
+### Mounting lifecycle
+
+- Constructor
+- Render (dummy data)
+- <HTML Dummy>
+- Component Did Mount
+  - API Call
+  - this.setState
+
+### Updating lifecycle
+
+- Render (live data)
+- <HTML live data>
+- Component Did Update
