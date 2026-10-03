@@ -97,3 +97,12 @@ import { Component } from 'path';
 - Render (live data)
 - <HTML live data>
 - Component Did Update
+
+# Different terms used for code splitting
+
+- Chunking
+- Code splitting
+- Dynamic Bundling
+- Lazy Loading
+- On Demand Loading
+- Dynamic Import
