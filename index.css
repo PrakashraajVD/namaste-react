@@ -1,1 +1,5 @@
 @import 'tailwindcss';
+
+.shimmer-card {
+  @apply m-3 p-4 w-50 h-100 bg-gray-100 rounded-lg;
+}
