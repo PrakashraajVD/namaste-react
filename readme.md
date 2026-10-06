@@ -106,3 +106,12 @@ import { Component } from 'path';
 - Lazy Loading
 - On Demand Loading
 - Dynamic Import
+
+# Redux Toolkit
+
+- Install @reduxjs/toolkit and react-redux
+- Build our store
+- Connect our store to the app
+- Slice (cartSlice)
+- Dispatch (action)
+- Selector
