@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import useOnlineStatus from '../utils/useOnlineStatus';
 import UserContext from '../utils/UserContext';
 import { useSelector } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
 
 const Header = () => {
   const [btnName, setBtnName] = useState('Login');
@@ -11,7 +12,7 @@ const Header = () => {
   const data = useContext(UserContext);
   // Subscribing to the store using a selector
   const cartItems = useSelector((store) => store?.cart?.items);
-  console.log(cartItems);
+  // console.log(cartItems);
 
   return (
     <div className="flex flex-wrap justify-between bg-blue-600 shadow-lg sm:bg-yellow-300 lg:bg-green-400">
